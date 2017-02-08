@@ -1,5 +1,5 @@
 <?php
-namespace MMIT\ConsoleOperations\Output;
+namespace MMIT\ConsoleOperations\Src\Output;
 
 use Symfony\Component\Console\Output\OutputInterface;
 
