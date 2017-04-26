@@ -78,4 +78,12 @@ trait OutputOperations
     {
         return Carbon::now()->format('Y-m-d H:i:s');
     }
+
+    /**
+     * @param OutputInterface $output
+     */
+    public function setOutputInterface(OutputInterface $output)
+    {
+        $this->output = $output;
+    }
 }
