@@ -57,6 +57,15 @@ trait OutputOperations
      * @param string $topic
      * @param string $message
      */
+    protected function writeOrangeLine(string $topic, string $message)
+    {
+        $this->output->writeln('[<fg=blue>' . $this->currentTime() . '</>] [<fg=cyan;options=bold>'. $topic . '</>] <fg=orange>' . $message . '</>');
+    }
+
+    /**
+     * @param string $topic
+     * @param string $message
+     */
     protected function writeRedLine(string $topic, string $message)
     {
         $this->output->writeln('[<fg=blue>' . $this->currentTime() . '</>] [<fg=cyan;options=bold>'. $topic . '</>] <fg=red>' . $message . '</>');
