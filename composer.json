@@ -1,0 +1,25 @@
+{
+  "name": "volantus/console-operations",
+  "description": "Library for CLI operations",
+  "type": "library",
+  "license": "GNUv3",
+  "authors": [
+    {
+      "name": "Marius Meißner",
+      "email": "info@marius-meissner.net"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "nesbot/carbon": "^1.22",
+    "symfony/console": "^3.2"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Volantus\\ConsoleOperations\\": "",
+      "Volantus\\ConsoleOperations\\Src\\": "src"
+    }
+  }
+}
