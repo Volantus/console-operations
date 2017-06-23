@@ -1,5 +1,5 @@
 <?php
-namespace MMIT\ConsoleOperations\Src\Output;
+namespace Volantus\ConsoleOperations\Src\Output;
 
 use Carbon\Carbon;
 use Symfony\Component\Console\Output\OutputInterface;
