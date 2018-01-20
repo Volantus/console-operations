@@ -2,7 +2,7 @@
   "name": "volantus/console-operations",
   "description": "Library for CLI operations",
   "type": "library",
-  "license": "GNUv3",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Marius Meißner",
