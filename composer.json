@@ -12,7 +12,7 @@
   "minimum-stability": "stable",
   "require": {
     "nesbot/carbon": "^1.22",
-    "symfony/console": "^3.2"
+    "symfony/console": "^3.2|^4.0"
   },
   "require-dev": {
   },
